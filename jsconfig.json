@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.js",
+    "**/*.js",
+    "**/*.jsx",
+    ".next/types/**/*.ts",
+    "app/lib/placeholder-data.js",
+    "scripts/seed.js"
+, "tailwind.config.js", "app/ui/customers/table.jsx", "app/ui/dashboard/cards.jsx", "app/ui/dashboard/latest-invoices.jsx", "app/ui/dashboard/nav-links.jsx", "app/ui/dashboard/revenue-chart.jsx", "app/ui/dashboard/sidenav.jsx", "app/ui/invoices/breadcrumbs.jsx", "app/ui/invoices/buttons.jsx", "app/ui/invoices/create-form.jsx", "app/ui/invoices/edit-form.jsx", "app/ui/invoices/pagination.jsx", "app/ui/invoices/status.jsx", "app/ui/invoices/table.jsx", "app/ui/acme-logo.jsx", "app/ui/button.jsx", "app/ui/fonts.js", "app/ui/login-form.jsx", "app/ui/search.jsx", "app/ui/skeletons.jsx", "app/layout.jsx", "app/page.jsx", "app/seed/route.js", "app/lib/utils.js", "app/lib/definitions.js", "app/lib/data.js"  ],
+  "exclude": ["node_modules"]
+}
